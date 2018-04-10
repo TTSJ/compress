@@ -12,11 +12,7 @@ using namespace std;
 
 int main()
 {
-    string addr = "127.0.0.1:50003";
-    int chanel = 2;
-
-    boost::format fmt = boost::format("%s_%d") % addr %chanel;
-    string ss = fmt.str();
+    cout << "first commit to github" << endl;
 
 
     getchar();
